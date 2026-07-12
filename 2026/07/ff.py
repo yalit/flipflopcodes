@@ -23,7 +23,7 @@ def solution_2(lines: list[str]):
     target = tuple(map(int, lines[i].split(',')))
     snake = tuple([(0,0)])
 
-    for x,m in enumerate(movements):
+    for m in movements:
         pos = move(snake[0],m)
         if pos in snake[:-1]:
             break
@@ -47,11 +47,10 @@ def solution_3(lines: list[str]):
     snake = tuple([(0,0)])
     count = 0
 
-    for _,m in enumerate(movements):
+    for m in movements:
         pos = move(snake[0],m)
         if pos in snake[:-1]:
-            cut = snake[:-1].index(pos)
-            snake = snake[:cut]
+            snake = snake[:snake[:-1].index(pos)]
             count +=1
 
         if pos != target:
@@ -59,10 +58,7 @@ def solution_3(lines: list[str]):
         
         if pos == target:
             i += 1
-            if i < len(lines):
-                target = tuple(map(int, lines[i].split(',')))
-            else:
-                target = None
+            target = tuple(map(int, lines[i].split(','))) if i < len(lines) else None
             snake = (pos,)+snake
     
     return len(snake) * count
