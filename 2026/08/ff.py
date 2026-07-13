@@ -54,4 +54,4 @@ def solve_p2_3(lines, n):
 
         stoats = new_stoats
 
-    return sum(stoats.values()) +1
+    return sum(stoats.values()) +1 #+1 to count the last stoat with no right hand buddy (@robotnik)
