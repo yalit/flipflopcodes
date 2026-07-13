@@ -1,0 +1,55 @@
+A A A J
+A B I G G I
+A C G
+A D J H
+A E G
+A F I F
+A G H F G A G
+A H H G F G B
+A I F H E
+A J A A C E
+B B G E C I
+B C J G J
+B D H A
+B E A F
+B F C D
+B G F G
+B H G A D G A
+B I H C
+B J I B H D
+C C F F J E F
+C D J
+C E D
+C F C J
+C G D
+C H I G C E
+C I J G D H I
+C J J
+D D H G F A G
+D E B
+D F B
+D G J A C H G
+D H G
+D I J B F
+D J F F
+E E F J A G
+E F H
+E G F J J I
+E H J F C F G
+E I F F B F J
+E J H
+F F G E B
+F G H
+F H D B J B H
+F I F B D B A
+F J F
+G G B A
+G H C D A J
+G I C
+G J H A
+H H C H H F
+H I F A
+H J D G F
+I I B E
+I J J
+J J B J G E
